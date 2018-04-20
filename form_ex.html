@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Form</title>
+</head>
+<body>
+	<form>
+		<h1>Register</h1>
+
+		<label for="firstname">First Name:</label>
+		<input type="text" id="firstname" name="first" required>
+		<label for="lastname">Last Name:</label>
+		<input type="text" id="lastname" name="last" required>
+		<br> <!--could use div instead of br-->
+		
+		<label for="male">Male</label>
+		<input type="radio" id="male" name="gender" value="m">
+		<label for="female">Female</label>
+		<input type="radio" id="female" name="gender" value="f">
+		<br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" placeholder="Your Email" required>
+		<label for="password">Password</label>
+		<input type="password" id="password" pattern=".{5,}" required title="Password must be at least 5 characters long" required><!--could use minlength/maxlength instead of pattern-->
+		<br>
+
+		<label>Birthday: 
+			<select name="month">
+				<option selected>Month</option>
+				<option>Janurary</option>
+				<option>February</option>
+				<option>March</option>
+				<option>April</option>
+			</select>
+			<select name="day">
+				<option selected>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select>
+			<select name="year">
+				<option selected>Year</option>
+				<option>1989</option>
+				<option>1990</option>
+				<option>1991</option>
+				<option>1992</option>
+				<option>1993</option>
+			</select>
+		</label>
+		<br>
+
+		<label for="agreement">I agree to the terms and conditions</label>
+		<input type="checkbox" id="agreement" name="agreed">
+		<br>
+
+		<input type="submit">
+	</form>
+</body>
+</html>
