@@ -1,0 +1,37 @@
+body {
+	border: 20px solid #bdc3c7;
+	font-family: 'Source Sans Pro';
+	width: 90%;
+	max-width: 700px;
+	margin: 20px auto;
+	padding: 20px;
+	/*background: url("https://c1.staticflickr.com/4/3850/14874898288_080077a3a6_b.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+h2 {
+ color: #2c3e50;
+ font-size: 2.0rem;
+}
+
+hr {
+ 	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.post {
+	margin: 10px auto;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+}
+
+.special {
+	border-left: 5px solid #bdc3c7;
+	padding: 5px;
+}
