@@ -1,0 +1,21 @@
+body {
+	padding: 70px;
+	font-family: "Gochi Hand";
+	background: no-repeat url("https://images.pexels.com/photos/315582/pexels-photo-315582.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	/*background-size: cover;
+	background-position: center;*/
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+h1 {
+	font-size: 5em;
+}
+#content {
+	text-align: center;
+	padding: 25%;
+	color: white;
+	text-shadow: 0px 3px 3px cadetblue;
+}
